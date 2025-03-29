@@ -3,7 +3,7 @@
 echo "🔧 Setting up the project..."
 
 # Change ownership to ec2-user
-sudo chown -R ec2-user:ec2-user /home/ec2-user/dev-pro
+sudo chown -R ec2-user:ec2-user /home/ec2-user/dev-pro-ecs-code
 
 # Set correct permissions
-sudo chmod -R 755 /home/ec2-user/dev-pro
+sudo chmod -R 755 /home/ec2-user/dev-pro-ecs-code
